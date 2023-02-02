@@ -6,7 +6,7 @@ body {
 }
 
 body, input, button {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'IBM Plex Sans Hebrew', sans-serif;
 }
 
 .noFill {
@@ -23,7 +23,7 @@ header {
   left: 0;
   z-index: 5;
 
-  background: #25b99a;
+  background: #671aff;
   box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.15);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -96,7 +96,7 @@ header button svg {
 }
 
 header button svg .fill {
-  fill: #25b99a;
+  fill: #671aff;
 }
 
 .container {
@@ -180,18 +180,18 @@ ul.todo li .buttons button svg {
 
 ul.todo li .buttons button.complete svg {
   border-radius: 11px;
-  border: 1.5px solid #25b99a;
+  border: 1.5px solid #671aff;
 
   transition: background 0.2s ease;
 }
 
 ul.todo#completed li .buttons button.complete svg {
-  background: #25b99a;
+  background: #671aff;
   border: 0px;
 }
 
 ul.todo:not(#completed) li .buttons button.complete:hover svg {
-  background: rgba(37, 185, 154, 0.75);
+  background: #671aff
 }
 
 ul.todo:not(#completed) li .buttons button.complete:hover svg .fill {
@@ -215,7 +215,7 @@ ul.todo li .buttons button.remove:hover svg .fill {
 }
 
 ul.todo li .buttons button.complete svg .fill {
-  fill: #25b99a;
+  fill: #671aff;
 }
 
 ul.todo#completed {
@@ -237,12 +237,12 @@ ul.todo#completed:before {
 }
 
 ul.todo#todo:empty:after {
-  content: 'You have nothing to-do!';
+  content: 'לא נוספו פריטים לרשימת הקניות';
   margin: 15px 0 0 0;
 }
 
 ul.todo#completed:empty:after {
-  content: 'You have yet to complete any tasks.';
+  content: 'אף מוצר עוד לא נוסף לעגלה';
 }
 
 ul.todo#todo:after,
